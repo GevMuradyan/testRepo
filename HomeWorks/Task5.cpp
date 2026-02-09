@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main()
+{
+    int n = 0;
+    std:: cout << "Enter size of array ";
+    std:: cin >> n ;
+    
+    int* arr = new int[n];
+
+    for(int i = 0; i < n; ++i){
+        std::cout << "Enter number" << i+1 << "/ ";
+        std:: cin >> arr[i]; 
+    }
+
+    for(int i = 0; i < n; ++i){
+        std::cout << arr[i] << " ";
+    }
+        std::cout<<std::endl;
+
+        delete[] arr;
+
+        return 0;
+    
+}
