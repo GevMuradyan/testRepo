@@ -1,0 +1,5 @@
+# Ignore precompiled headers
+*.gch
+
+# Ignore executables
+a.out
